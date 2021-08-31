@@ -1,0 +1,9 @@
+broker: tcp://122.112.247.177:1883 #broker地址
+userName: root #授权账号 一定要授权的
+password: root #密码
+cleanSession: true #是否清除会话
+reconnect: true #是否断线重连
+timeout: 20 #连接超时时间
+keepAlive: 10 #心跳间隔
+subTopic: test #主题
+clientId: 666 #客户端ID
